@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.63">
+    <testcase classname="Learn tagging - Cucumber" name="Login" time="0.157">
+        <system-out><![CDATA[Given Test for login........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Learn tagging - Cucumber" name="Logout" time="0.006">
+        <system-out><![CDATA[Given Test for logout.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Learn tagging - Cucumber" name="Add" time="0.023">
+        <system-out><![CDATA[Given Test for Add..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

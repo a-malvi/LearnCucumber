@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-06T12:01:46.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login",
+        "description": "",
+        "id": "learn-tagging---cucumber;login",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test for login",
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.test_for_login()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-06T12:01:46.826Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Logout",
+        "description": "",
+        "id": "learn-tagging---cucumber;logout",
+        "after": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Test for logout",
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.test_for_logout()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-06T12:01:46.848Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Add",
+        "description": "",
+        "id": "learn-tagging---cucumber;add",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Test for Add",
+            "match": {
+              "location": "stepDefination.LearntaggingStepDefination.test_for_add()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      }
+    ],
+    "name": "Learn tagging - Cucumber",
+    "description": "Description: code to learn tagging in cucumber",
+    "id": "learn-tagging---cucumber",
+    "keyword": "Feature",
+    "uri": "file:Feature/learnHooks.feature",
+    "tags": []
+  }
+]
